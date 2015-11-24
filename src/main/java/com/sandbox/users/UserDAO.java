@@ -3,9 +3,9 @@ package com.sandbox.users;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import javax.enterprise.context.RequestScoped;
+import javax.enterprise.context.ApplicationScoped;
 
-@RequestScoped
+@ApplicationScoped
 public class UserDAO {
 	
 	private Date date;
